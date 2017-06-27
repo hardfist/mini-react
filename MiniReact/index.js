@@ -4,6 +4,7 @@ import Mount from './src/Mount';
 export default {
   Component,
   createElement: Element.createElement,
-  render: Mount.render
+  render: Mount.render,
+  unMountComponentAtNode: Mount.unmountComponentAtNode
 };
 
